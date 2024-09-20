@@ -75,22 +75,13 @@ const Modal = ({ closeModal }) => (
       <CloseModalBtn type="button" onClick={closeModal}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="25"
-          height="25"
-          viewBox="0 0 25 25"
-          fill="none"
+          x="0px"
+          y="0px"
+          width="20"
+          height="20"
+          viewBox="0 0 50 50"
         >
-          <g clip-path="url(#clip0_5840_5367)">
-            <path
-              d="M19.7904 6.67773L18.3216 5.20898L12.4987 11.0319L6.67578 5.20898L5.20703 6.67773L11.0299 12.5007L5.20703 18.3236L6.67578 19.7923L12.4987 13.9694L18.3216 19.7923L19.7904 18.3236L13.9674 12.5007L19.7904 6.67773Z"
-              fill="#84A6C2"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_5840_5367">
-              <rect width="25" height="25" fill="white" />
-            </clipPath>
-          </defs>
+          <path d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path>
         </svg>
       </CloseModalBtn>
       <Form>
