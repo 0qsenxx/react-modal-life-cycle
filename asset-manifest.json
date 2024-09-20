@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-modal-life-cycle/static/css/main.f855e6bc.css",
-    "main.js": "/react-modal-life-cycle/static/js/main.0269f6ac.js",
+    "main.js": "/react-modal-life-cycle/static/js/main.a9141b52.js",
     "static/media/iphone16.webp": "/react-modal-life-cycle/static/media/iphone16.71b27f34bd260c3e785d.webp",
     "index.html": "/react-modal-life-cycle/index.html",
     "main.f855e6bc.css.map": "/react-modal-life-cycle/static/css/main.f855e6bc.css.map",
-    "main.0269f6ac.js.map": "/react-modal-life-cycle/static/js/main.0269f6ac.js.map"
+    "main.a9141b52.js.map": "/react-modal-life-cycle/static/js/main.a9141b52.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.0269f6ac.js"
+    "static/js/main.a9141b52.js"
   ]
 }
