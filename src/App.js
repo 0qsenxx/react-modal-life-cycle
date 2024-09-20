@@ -1,33 +1,8 @@
 import "./App.css";
 import { Component } from "react";
-import styled from "styled-components";
 import Modal from "./components/Modal/Modal";
-import iphone from "./imgs/iphone16.webp";
-
-const IphoneImg = styled.img`
-  width: 100%;
-  max-height: 100%;
-`;
-
-const IphoneTitle = styled.h1`
-  text-align: center;
-  font-size: 50px;
-  /* margin-left: auto;
-  margin-right: auto; */
-`;
-
-const PreOrderBtn = styled.button`
-  width: 250px;
-  padding: 15px;
-  border-radius: 20px;
-  border: none;
-  font-size: 17px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  color: #684939;
-  background-color: #d5c5b8;
-`;
+import PreOrderSection from "./components/PreOrderSection/PreOrderSection";
+import Timer from "./components/Timer/Timer";
 
 class App extends Component {
   state = {
@@ -59,14 +34,11 @@ class App extends Component {
   render() {
     return (
       <>
-        <IphoneImg src={iphone} alt="new-iphone-16" />
-        <IphoneTitle>Встигни зробити передзамолевлення!</IphoneTitle>
-        <PreOrderBtn type="button" onClick={this.openModal}>
-          Зробити передзавлення
-        </PreOrderBtn>
+        <PreOrderSection openModal={this.openModal} />
         {this.state.isHidden === false ? (
           <Modal closeModal={this.closeModal} />
         ) : null}
+        <Timer />
       </>
     );
   }
